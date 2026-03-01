@@ -1,0 +1,111 @@
+#projects {
+  border-top: 1px solid var(--border);
+  background: rgba(14, 14, 18, 0.7);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  margin-top: 4rem;
+  border: 1px solid var(--border);
+}
+
+.project-card {
+  background: var(--surface);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  transition: background 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Shimmer line on hover */
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(190, 190, 230, 0.35), transparent);
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover {
+  background: rgba(18, 18, 24, 1);
+}
+
+.project-card:hover::before {
+  transform: scaleX(1);
+}
+
+.project-num {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.58rem;
+  color: rgba(190, 190, 220, 0.16);
+  letter-spacing: 0.1em;
+}
+
+.project-card h3 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--c1);
+}
+
+.project-card p {
+  font-size: 0.83rem;
+  line-height: 1.7;
+  color: var(--dim);
+  flex: 1;
+  font-weight: 300;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.2rem;
+}
+
+.tag {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.55rem;
+  border: 1px solid rgba(180, 180, 220, 0.1);
+  color: var(--dim);
+  background: rgba(180, 180, 220, 0.04);
+}
+
+.project-link {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(180, 180, 220, 0.28);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+  transition: color 0.2s;
+}
+
+.project-link:hover {
+  color: var(--c2);
+}
+
+.project-link::after {
+  content: '→';
+  transition: transform 0.2s;
+}
+
+.project-link:hover::after {
+  transform: translateX(3px);
+}

@@ -1,0 +1,50 @@
+#contact {
+  border-top: 1px solid var(--border);
+  padding: 7rem 5rem;
+}
+
+.contact-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: start;
+  margin-top: 4rem;
+}
+
+.contact-blurb {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--dim);
+  font-weight: 300;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.contact-link {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--dim);
+  text-decoration: none;
+  padding: 0.95rem 1.2rem;
+  border: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+  background: var(--faint);
+}
+
+.contact-link:hover {
+  border-color: rgba(190, 190, 230, 0.28);
+  color: var(--c1);
+  background: rgba(190, 190, 220, 0.07);
+}
+
+.contact-link span {
+  opacity: 0.3;
+}

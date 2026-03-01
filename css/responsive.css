@@ -1,0 +1,51 @@
+@media (max-width: 900px) {
+  nav {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  #hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-left {
+    padding: 5rem 1.5rem 2rem;
+  }
+
+  .hero-right {
+    padding: 1rem 1.5rem 4rem;
+    justify-content: flex-start;
+  }
+
+  .photo-wrap {
+    width: 240px;
+  }
+
+  section {
+    padding: 5rem 1.5rem;
+  }
+
+  .exp-item {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .contact-inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  #contact {
+    padding: 5rem 1.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+}

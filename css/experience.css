@@ -1,0 +1,53 @@
+#experience {
+  border-top: 1px solid var(--border);
+}
+
+.exp-list {
+  margin-top: 4rem;
+}
+
+.exp-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 3rem;
+  padding: 2.25rem 0;
+  border-top: 1px solid var(--border);
+  /* initial state for scroll animation */
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.exp-item.visible {
+  opacity: 1;
+  transform: none;
+}
+
+.exp-date {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: var(--dim);
+  margin-bottom: 0.35rem;
+}
+
+.exp-org {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.6rem;
+  color: rgba(190, 190, 220, 0.22);
+}
+
+.exp-content h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  color: var(--c1);
+}
+
+.exp-content p {
+  font-size: 0.85rem;
+  line-height: 1.75;
+  color: var(--dim);
+  max-width: 65ch;
+  font-weight: 300;
+}

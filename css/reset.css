@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--c1);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Ambient silver glow */
+body::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(ellipse, rgba(150,150,200,0.05) 0%, transparent 65%);
+  pointer-events: none;
+  z-index: 0;
+}

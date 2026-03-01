@@ -1,0 +1,15 @@
+:root {
+  /* Background */
+  --bg: #0b0b0d;
+  --surface: #111116;
+
+  /* Chrome silver palette */
+  --c1: #ececf4;        /* brightest — headings, primary text */
+  --c2: #b0b0c8;        /* mid silver — accents, strong text */
+  --c3: #d0d0e8;        /* light silver */
+  --dim: #606075;       /* muted — body copy, labels */
+
+  /* Surfaces & borders */
+  --faint: rgba(190, 190, 220, 0.06);
+  --border: rgba(190, 190, 220, 0.11);
+}

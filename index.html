@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bex — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/ticker.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/experience.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo"><span>my portfolio</span></div>
+    <div class="nav-links">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Embedded Systems Engineer</div>
+      <h1>
+        <span class="name-fill">PASINPON</span>
+        <span class="name-stroke">BEX</span>
+        <span class="name-ghost">SAWETRATTANATHUMRONG</span>
+      </h1>
+      <p class="hero-desc">
+        Incoming @<strong>Arm Inc.</strong> · <strong>NASA ULSI</strong> flight software · Computer Engineering @<strong>CSULB</strong>.
+        My interests span embedded systems, aerospace, and computer hardware. 
+        If I’m not on clock, I’m usually out play badminton! <strong>Let’s Connect!</strong>
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="https://github.com/pasinponsww" target="_blank" class="btn">GitHub</a>
+        <a href="https://linkedin.com/in/pasinponsaw" target="_blank" class="btn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-right">
+        <div class="photo-inner">
+          <img src="image/picture.png" alt="Bex" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <span class="ticker-item">Bare-Metal C++</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">STM32 L4 / F4 / H7</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">FreeRTOS</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">NASA ULSI</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">ARM Cortex-M</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">Flight Software</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">FPGA / Verilog</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">Sensor Fusion</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">UART · SPI · I2C</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">Bare-Metal C++</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">STM32 L4 / F4 / H7</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">FreeRTOS</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">NASA ULSI</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">ARM Cortex-M</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">Flight Software</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">FPGA / Verilog</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">Sensor Fusion</span><span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">UART · SPI · I2C</span><span class="ticker-item ticker-sep">·</span>
+    </div>
+  </div>
+
+  <section id="experience">
+    <div class="section-label">Experience</div>
+    <h2>Where I've<br>Been Building</h2>
+    <div class="exp-list">
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">Summer 2026</div>
+          <div class="exp-org">Arm</div>
+        </div>
+        <div class="exp-content">
+          <h3>Incoming Engineer @ Arm Summer 2026</h3>
+          <p>Joining Arm </p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">Feb 2026 – Present</div>
+          <div class="exp-org">NASA</div>
+        </div>
+        <div class="exp-content">
+          <h3>MCA / Payload Specialist — NASA L'SPACE</h3>
+          <p>C&amp;DH Engineer &amp; Mission Assurance on NASA's L'SPACE program. Responsible for command and data handling architecture and ensuring mission reliability.</p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">Sep 2025 – Present</div>
+          <div class="exp-org">Long Beach Rocketry</div>
+        </div>
+        <div class="exp-content">
+          <h3>Payload Embedded Firmware Co-Team Lead — NASA ULSI</h3>
+          <p>Developed bare-metal STM32 L4/H7/F4 peripheral drivers in C++ across multiple custom PCB bring-up platforms. Designed fault-tolerant PPS state machines for real-time sensing, closed-loop actuation, and mission sequencing. Integrated BNO055 IMU over I2C for quaternion-based orientation control.</p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">Aug 2025 – Present</div>
+          <div class="exp-org">CSULB EATS</div>
+        </div>
+        <div class="exp-content">
+          <h3>Embedded Software Team Lead — EATS Micromouse</h3>
+          <p>Architected a fully autonomous Micromouse robot on STM32F4 from clean-sheet hardware/firmware design. Authored drivers for UART, I2C, SPI, PWM, ADC, encoders, and W25Q128 flash. Implemented Flood-Fill maze-solving with flash-backed persistent map storage.</p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">Apr 2024 – Jan 2025</div>
+          <div class="exp-org">osu!</div>
+        </div>
+        <div class="exp-content">
+          <h3>UX/UI Designer — osu!</h3>
+          <p>Designed and implemented user interface components for the osu! game. Collaborated with developers to ensure seamless integration of design elements into the game's core functionality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-label">Projects</div>
+    <h2>Things I've<br>Built</h2>
+    <div class="projects-grid">
+
+      <div class="project-card fade-up">
+        <div class="project-num">01</div>
+        <h3>XuperM — Micromouse (Cortex-M4)</h3>
+        <p>Autonomous Micromouse for AAMC UCLA on STM32F411. Bare-metal C++ with strict separation of application logic, control algorithms, and register-level drivers. Flood-Fill maze navigation with full peripheral stack.</p>
+        <div class="project-tags">
+          <span class="tag">STM32F4</span><span class="tag">C++</span><span class="tag">Flood-Fill</span><span class="tag">PWM</span>
+          <span class="tag">Encoder</span><span class="tag">SPI</span><span class="tag">ADC</span><span class="tag">Maze-Solving</span>
+          <span class="tag">Bare-metal</span><span class="tag">FreeRTOS</span>
+        </div>
+        <a href="https://github.com/pasinponsww" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">02</div>
+        <h3>Payload Positioning System</h3>
+        <p>STM32L4 embedded positioning system for competition rocketry. Real-time deployment, rotation, and retraction with PPS state machine. BNO055 IMU quaternion triggers, DRV8245 H-bridge closed-loop motor control.</p>
+        <div class="project-tags">
+          <span class="tag">STM32L4</span><span class="tag">BNO055</span><span class="tag">DRV8245</span><span class="tag">I2C</span>
+          <span class="tag">FSM</span><span class="tag">PWM</span><span class="tag">ADC</span><span class="tag">Sensor Fusion</span>
+          <span class="tag">Closed-loop</span><span class="tag">C++</span>
+        </div>
+        <a href="https://github.com/pasinponsww" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">03</div>
+        <h3>RFID Auth System</h3>
+        <p>Full end-to-end pipeline: FPGA (Verilog) → ESP32 (C++) → Firebase. Custom bare-metal UART protocol with FSM framing, checksum validation, and timeout/retry logic. Validated with oscilloscope and logic analyzer.</p>
+        <div class="project-tags">
+          <span class="tag">Verilog</span><span class="tag">ESP32</span><span class="tag">UART</span><span class="tag">FPGA</span><span class="tag">Firebase</span><span class="tag">FSM</span><span class="tag">C++</span>
+          <span class="tag">Python</span><span class="tag">Shell</span>
+        </div>
+        <a href="https://github.com/pasinponsww" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">04</div>
+        <h3>Hardware-Enforced UID Auth</h3>
+        <p>Offline-first authentication bridging RTL/HDL logic design with firmware. I2C &amp; UART serial protocol paths in C++. Operates without cloud connectivity — deterministic access decisions, zero external failure points.</p>
+        <div class="project-tags">
+          <span class="tag">HDL</span><span class="tag">C++</span><span class="tag">Cortex-M</span><span class="tag">I2C</span><span class="tag">Offline</span><span class="tag">UART</span><span class="tag">Deterministic</span><span class="tag">Embedded</span>
+        </div>
+        <a href="https://github.com/pasinponsww" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-label">Skills</div>
+    <h2>The Stack</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Domain</h4>
+        <div class="skill-items">
+          <span class="skill-pill">Bare-metal firmware</span>
+          <span class="skill-pill">Hard real-time</span>
+          <span class="skill-pill">FreeRTOS</span>
+          <span class="skill-pill">Peripheral drivers</span>
+          <span class="skill-pill">Bootloaders</span>
+          <span class="skill-pill">HITL validation</span>
+          <span class="skill-pill">Fault-tolerant FSM</span>
+          <span class="skill-pill">Sensor fusion</span>
+          <span class="skill-pill">Closed-loop control</span>
+          <span class="skill-pill">System integration</span>
+          <span class="skill-pill">Mission sequencing</span>
+          <span class="skill-pill">Real-time actuation</span>
+          <span class="skill-pill">Protocol design</span>
+          <span class="skill-pill">RTL simulation</span>
+          <span class="skill-pill">Data integrity validation</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="skill-items">
+          <span class="skill-pill">C</span>
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Verilog</span>
+          <span class="skill-pill">SystemVerilog</span>
+          <span class="skill-pill">VHDL</span>
+          <span class="skill-pill">ARM Assembly</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Bash</span>
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">Node.js</span>
+          <span class="skill-pill">Next.js</span>
+          <span class="skill-pill">Cmake</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Hardware</h4>
+        <div class="skill-items">
+          <span class="skill-pill">ARM Cortex-M</span>
+          <span class="skill-pill">STM32 L4/F4/H7</span>
+          <span class="skill-pill">ESP32-S2/S3</span>
+          <span class="skill-pill">FPGA Nexys 100T</span>
+          <span class="skill-pill">AVR ATmega328P</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Tools</h4>
+        <div class="skill-items">
+          <span class="skill-pill">GDB</span>
+          <span class="skill-pill">OpenOCD</span>
+          <span class="skill-pill">JTAG/SWD</span>
+          <span class="skill-pill">Oscilloscope</span>
+          <span class="skill-pill">Logic Analyzer</span>
+          <span class="skill-pill">Altium Designer</span>
+          <span class="skill-pill">CMake</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">Linux</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-label">Contact</div>
+    <h2>Let's Connect<br>Together.</h2>
+    <div class="contact-inner">
+      <div class="contact-blurb">
+        Currently pursuing B.S. Computer Engineering at CSULB (GPA 3.68), incoming at Arm, and actively working on rocketry flight software. Open to conversations about embedded systems, aerospace, and hardware projects.
+      </div>
+      <div class="contact-links">
+        <a href="mailto:bex.bcc171@gmail.com" class="contact-link">bex.bcc171@gmail.com <span>Email →</span></a>
+        <a href="https://linkedin.com/in/pasinponsaw" target="_blank" class="contact-link">linkedin.com/in/pasinponsaw <span>LinkedIn →</span></a>
+        <a href="https://github.com/pasinponsww" target="_blank" class="contact-link">github.com/pasinponsww <span>GitHub →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Pasinpon (Bex) Sawetrattanathumrong</p>
+    <p>// Portfolio.</p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+
+</body>
+</html>
