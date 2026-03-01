@@ -3,6 +3,13 @@
     padding: 1.25rem 1.5rem;
   }
 
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: visible !important;
+  }
+
   .nav-links {
     display: none;
   }
